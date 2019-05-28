@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Neivis3_BulletsES</name>
+    <events>
+        <comment>Variable Order&#x0D;&#x0A;0 = Damage&#x0D;&#x0A;1 = Speed&#x0D;&#x0A;2 = Size X&#x0D;&#x0A;3 = Size y</comment>
+        <event-block sid="475017404693766">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="915464054146782" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <comment>Bullet0</comment>
+                <event-block sid="388643560577115">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="703450453734954" type="BulletsArray">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">10</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="437248763257108" type="BulletsArray">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">1500</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="906920535877281" type="BulletsArray">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">16</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="753386601136960" type="BulletsArray">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">28</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Bullet1</comment>
+                <event-block sid="938036543108994">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="983816867239459" type="BulletsArray">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">30</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="204083632144859" type="BulletsArray">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">1250</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="163794395542731" type="BulletsArray">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">32</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="688143636325733" type="BulletsArray">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">32</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
